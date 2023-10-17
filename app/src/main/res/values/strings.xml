@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">LabExam03</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="timeSlots">
+        <item></item>
+        <item>7:30 AM - 9:30 AM</item>
+        <item>8:30 AM - 10:30 AM</item>
+        <item>11:30 AM - 1:30 PM</item>
+        <item>2:00 PM - 4:00 PM</item>
+    </string-array>
+    <string-array name="appointmentType">
+        <item></item>
+        <item>General Checkup</item>
+        <item>Dental Cleaning</item>
+        <item>Consultation</item>
+        <item>Eye Checkup</item>
+        <item>Pediatric Checkup</item>
+        <item>Prenatal Checkup</item>
+    </string-array>
+</resources>
