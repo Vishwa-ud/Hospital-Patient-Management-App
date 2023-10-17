@@ -23,13 +23,14 @@
             android:id="@+id/homebtn"
             android:layout_width="10dp"
             android:layout_height="wrap_content"
+            android:layout_margin="4dp"
             android:layout_weight="1"
             android:background="@drawable/custom_button_background"
+            android:padding="6dp"
             android:text="Home"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
-            android:layout_margin="4dp"
-            android:padding="6dp" />
+            app:icon="@drawable/baseline_home_24" />
 
         <Button
             android:id="@+id/appointmentbtn"

@@ -2,6 +2,7 @@
 <!-- item_patient_record.xml -->
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
@@ -62,7 +63,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:backgroundTint="@android:color/holo_red_dark"
-        android:text="Delete" />
+        android:text="Delete"
+        app:icon="@drawable/baseline_delete_24" />
 
     <Button
         android:id="@+id/buttonAddReminder"
